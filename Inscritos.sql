@@ -1,3 +1,58 @@
+postgres=# CREATE DATABASE "desafio2-karen-limari-123";
+CREATE DATABASE
+postgres=# CREATE TABLE IF NOT EXISTS INSCRITOS(cantidad INT, fecha DATE, fuente
+postgres(# VARCHAR);
+NOTICE:  la relación «inscritos» ya existe, omitiendo
+CREATE TABLE
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 44, '01/01/2021', 'Blog' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 56, '01/01/2021', 'Página' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 39, '01/02/2021', 'Blog' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 81, '01/02/2021', 'Página' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 12, '01/03/2021', 'Blog' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 91, '01/03/2021', 'Página' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 48, '01/04/2021', 'Blog' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 45, '01/04/2021', 'Página' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 55, '01/05/2021', 'Blog' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 33, '01/05/2021', 'Página' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 18, '01/06/2021', 'Blog' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 12, '01/06/2021', 'Página' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 34, '01/07/2021', 'Blog' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 24, '01/07/2021', 'Página' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 83, '01/08/2021', 'Blog' );
+INSERT 0 1
+postgres=# INSERT INTO INSCRITOS(cantidad, fecha, fuente)
+postgres-# VALUES ( 99, '01/08/2021', 'Página' );
+INSERT 0 1
+
 --desafio2-karen-limari-123=# 
  SELECT * FROM inscritos;
 
